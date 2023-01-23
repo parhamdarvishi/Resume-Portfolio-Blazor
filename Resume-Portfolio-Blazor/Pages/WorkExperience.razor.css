@@ -1,0 +1,21 @@
+﻿.card {
+    box-shadow: -1px 0px 16px 0px rgba(58,6,71,0.75);
+    -webkit-box-shadow: -1px 0px 16px 0px rgba(58,6,71,0.75);
+    -moz-box-shadow: -1px 0px 16px 0px rgba(58,6,71,0.75);
+    margin-bottom: 15px;
+    padding: 15px;
+
+}
+
+.skill-catgeories-container{
+    margin-bottom:15px;
+}
+
+.achievement {
+    padding-left: 35px;
+}
+
+a {
+    color: initial;
+    text-decoration: none;
+}

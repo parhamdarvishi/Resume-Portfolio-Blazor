@@ -1,0 +1,31 @@
+﻿@page "/WorkExperiences"
+
+@for (var i = 0; i < resume.WorkExperiences.Count; i++)
+{
+    <div class="card">
+        <div>
+            @resume.WorkExperiences[i].JobTitle
+        </div>
+        <div>
+            <a href="@resume.WorkExperiences[i].CompanyLink" target="_blank">
+                @resume.WorkExperiences[i].CompanyName
+            </a>
+        </div>
+        <div>
+            @resume.WorkExperiences[i].Duration
+        </div>
+        <div>
+            @resume.WorkExperiences[i].CompanyLocation
+        </div>
+        <hr />
+        <div class="description">
+            <ol>
+                @resume.WorkExperiences[i].Description
+                @for (var j = 0; j < resume.WorkExperiences[i].Achievements.Count; j++)
+                {
+                    <li class="achievement">@resume.WorkExperiences[i].Achievements[j]</li>
+                }
+            </ol>
+        </div>
+    </div>
+}

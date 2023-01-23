@@ -1,0 +1,14 @@
+﻿@page "/Skills"
+
+@for (var i = 0; i < resume.SkillCatgeories.Count; i++)
+{
+    <div class="skill-catgeories-container">
+        <h2 class="mb-2 mt-2">@resume.SkillCatgeories[i].Name</h2>
+        @for (var j = 0; j < resume.Skills.Where(x => x.SkillCatgeoryID == resume.SkillCatgeories[i].ID).Count(); j++)
+        {
+            <span class="tag">
+                @resume.Skills[j].Name
+            </span>
+        }
+    </div>
+}

@@ -1,0 +1,287 @@
+{
+	"Info": {
+		"FirstName": "Parham",
+		"LastName": "Darvishi",
+		"PhoneNumber": "+989129564205",
+		"Email": "darvishiparham14@gmail.com",
+		"JobTitle": "Software Engineer",
+		"Languages": [ "English: Advanced", "Persian: Native" ]
+	},
+	"AccessLinks": [
+		{
+			"Name": "Linkedin",
+			"Link": "https://www.linkedin.com/in/parham-darvishi-26b6b8161/"
+		},
+		{
+			"Name": "GitHub",
+			"Link": "https://github.com/parhamdarvishi"
+		}
+	],
+	"SkillCatgeories": [
+		{
+			"ID": 1,
+			"Name": "Programming languages"
+		},
+		{
+			"ID": 2,
+			"Name": "Framework and technologies"
+		},
+		{
+			"ID": 3,
+			"Name": "Web Design"
+		},
+		{
+			"ID": 4,
+			"Name": "Version Control"
+		}
+	],
+	"Skills": [
+		{
+			"Name": "C#",
+			"SkillCatgeoryID": 1
+		},
+		{
+			"Name": "VB.net",
+			"SkillCatgeoryID": 1
+		},
+		{
+			"Name": "TypeScript",
+			"SkillCatgeoryID": 1
+		},
+		{
+			"Name": ".Net 6",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "Web API",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "gRPC",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "Windows Application",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "Azure DevOps",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "Design Patterns",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "Docker",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "Microservices",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "Entity Framework",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "SQL Server",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "NUnit",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "Ocelot",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "RabbitMQ",
+			"SkillCatgeoryID": 2
+		},
+		{
+			"Name": "HTML",
+			"SkillCatgeoryID": 3
+		},
+		{
+			"Name": "CSS",
+			"SkillCatgeoryID": 4
+		},
+		{
+			"Name": "JS",
+			"SkillCatgeoryID": 4
+		},
+		{
+			"Name": "Jquery",
+			"SkillCatgeoryID": 4
+		},
+		{
+			"Name": "Bootstrap",
+			"SkillCatgeoryID": 4
+		},
+		{
+			"Name": "SCSS",
+			"SkillCatgeoryID": 4
+		},
+		{
+			"Name": "GIT",
+			"SkillCatgeoryID": 5
+		},
+		{
+			"Name": "TFS",
+			"SkillCatgeoryID": 5
+		}
+	],
+	"WorkExperiences": [
+		{
+			"Order": 1,
+			"CompanyName": "HooshoDanesh",
+			"CompanyLink": "https://www.hooshodanesh.com/",
+			"CompanyLocation": "Tehran, Iran",
+			"CompanyLogo": "",
+			"JobTitle": "Software Engineer",
+			"Duration": "Jan 2021 – Present",
+			"Description": "As a senior technical expert on the Emta project, a 10-person team responsible for authenticating and authorizing users, I contributed to the following achievements: ",
+			"Achievements": [
+				"Improved the changeability of our software through the use of microservices patterns and clean architecture.",
+				"Implemented the core domain of our platform using a well-designed template.",
+				"Reduced coupling between services through the implementation of Domain-driven design.",
+				"Decreased direct service calling by adopting an event-driven approach.",
+				"Accelerated product delivery through the introduction of continuous integration and delivery.",
+				"Maintained regular communication with third-party companies to align our team's vision and mission with that of the company and our products, ultimately leading to successful launches."
+			],
+			"Skills": [
+				".NET 6 web API",
+				"C#",
+				"Microservices",
+				"Design Pattern",
+				"Swagger",
+				"Hangfire",
+				"Docker",
+				"ADO.Net",
+				"SQL Server",
+				"Angular",
+				"Bootstrap",
+				"HTML5",
+				"CSS3",
+				"SCSS",
+				"TFS",
+				"CQRS",
+				"IIS"
+			]
+		},
+		{
+			"Order": 2,
+			"CompanyName": "ICE",
+			"CompanyLink": "https://www.icescoring.com/",
+			"CompanyLocation": "Tehran, Iran",
+			"CompanyLogo": "",
+			"JobTitle": "Software Engineer",
+			"Duration": "March 2019 — Jan 2021",
+			"Description": "As a technical expert on the ICE project, a financial validation platform, I was responsible for preparing the test space and providing technical support to our partners, including Irancell, HamrahCard, Sad24, 724, Top, and others. My contributions to the project included:",
+			"Achievements": [
+				"Implementing one PWA and two dashboards (admin and customer).",
+				"Improving the readability of new backend services through the use of C#, design patterns, and SOLID principles (migrating from VB.Net).",
+				"Increasing test coverage by 35% through the use of a TDD approach and writing unit tests.",
+				"Performing maintenance and improvements on BTB services."
+			],
+			"Skills": [
+				"Angular",
+				"Typescript",
+				"Swagger",
+				"Monolithic architecture",
+				"C#",
+				"Design Patterns",
+				"SQL Server",
+				"Postman",
+				"ASP.Net Razor page",
+				".NET web API",
+				"Bootstrap",
+				"HTML5",
+				"CSS3"
+			]
+		},
+		{
+			"Order": 3,
+			"CompanyName": "Ibiar",
+			"CompanyLink": "https://www.ibiar.com/",
+			"CompanyLocation": "Tehran, Iran",
+			"CompanyLogo": "",
+			"JobTitle": "Full-Stack Developer",
+			"Duration": "March 2017 — March 2019",
+			"Description": "I was part of the team that launched Biar in February 2017, a company that provides retail goods online in partnership with HooshoDanesh Software Engineering. My contributions to the company included:",
+			"Achievements": [
+				"Improved product delivery by developing a new version using clean architecture and a well-layered software design.",
+				"Increased store traffic by 25% through the creation of a mobile-friendly layout.",
+				"Enhanced the customer experience by implementing a client-side single-page application framework.",
+				"Improved price and product notifications through the use of SignalR.",
+				"Collaborated with engineers, designers, and product team members to reach project milestones."
+			],
+			"Skills": [
+				"Monolithic",
+				"VB.NET",
+				"ASP.net Razor",
+				"SQL Server",
+				"SignalR",
+				"JQuery",
+				"HTML5",
+				"SCSS",
+				"Bootstrap"
+			]
+		}
+	],
+	"Educations": [
+		{
+			"Degree": "Azad University Central Tehran Branch, Bachelor of Computer Science",
+			"Links": "",
+			"Location": "Tehran, Iran"
+		}
+	],
+	"Courses": [
+		{
+			"Order": 1,
+			"Name": "",
+			"Provider": "",
+			"ProviderLink": "",
+			"IsCertificate": false,
+			"Masters": [
+				{
+					"Name": "",
+					"Link": ""
+				}
+			]
+		}
+	],
+	"Freelance Projects": [
+		{
+			"Order": 1,
+			"Name": "DrPharmShop",
+			"Link": "https://drpharmshop.com/",
+			"Logo": "",
+			"Location": "Tehran, Iran"
+		},
+		{
+			"Order": 2,
+			"Name": "chapemehr",
+			"Link": "http://chapemehr.ir/",
+			"Logo": "",
+			"Location": "Tehran, Iran"
+		},
+		{
+			"Order": 3,
+			"Name": "Lantech",
+			"Link": "http://Lantech.ir/",
+			"Logo": "",
+			"Location": "Tehran, Iran"
+		}
+	],
+	"Blogs": [
+		{
+			"Order": 1,
+			"Name": "",
+			"Link": "",
+			"Logo": ""
+		}
+	]
+}
