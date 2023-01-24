@@ -1,4 +1,13 @@
 ﻿@page "/AccessLinks"
 
-<h3>AccessLinks</h3>
+<div class="row">
+    @for (var i = 0; i < resume.AccessLinks.Count(); i++)
+    {
+        <div class="col-6 col-md-2">
+            <a href="@resume.AccessLinks[i].Link" target="_blank">
+                <img src="@resume.AccessLinks[i].ImagePath" />
+            </a>
+        </div>
+    }
+</div>
 

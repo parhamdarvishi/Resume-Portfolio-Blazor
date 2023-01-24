@@ -9,11 +9,23 @@
 	},
 	"AccessLinks": [
 		{
+			"imagePath": "/images/linkedin.png",
 			"Name": "Linkedin",
 			"Link": "https://www.linkedin.com/in/parham-darvishi-26b6b8161/"
 		},
 		{
+			"imagePath": "/images/github.png",
 			"Name": "GitHub",
+			"Link": "https://github.com/parhamdarvishi"
+		},
+		{
+			"imagePath": "/images/phone.png",
+			"Name": "Phone",
+			"Link": "https://github.com/parhamdarvishi"
+		},
+		{
+			"imagePath": "/images/whatsapp.png",
+			"Name": "Whatsapp",
 			"Link": "https://github.com/parhamdarvishi"
 		}
 	],
@@ -139,7 +151,7 @@
 			"CompanyName": "HooshoDanesh",
 			"CompanyLink": "https://www.hooshodanesh.com/",
 			"CompanyLocation": "Tehran, Iran",
-			"CompanyLogo": "",
+			"CompanyLogo": "/images/hooshodanesh.png",
 			"JobTitle": "Software Engineer",
 			"Duration": "Jan 2021 – Present",
 			"Description": "As a senior technical expert on the Emta project, a 10-person team responsible for authenticating and authorizing users, I contributed to the following achievements: ",
@@ -176,7 +188,7 @@
 			"CompanyName": "ICE",
 			"CompanyLink": "https://www.icescoring.com/",
 			"CompanyLocation": "Tehran, Iran",
-			"CompanyLogo": "",
+			"CompanyLogo": "/images/ice.png",
 			"JobTitle": "Software Engineer",
 			"Duration": "March 2019 — Jan 2021",
 			"Description": "As a technical expert on the ICE project, a financial validation platform, I was responsible for preparing the test space and providing technical support to our partners, including Irancell, HamrahCard, Sad24, 724, Top, and others. My contributions to the project included:",
@@ -207,7 +219,7 @@
 			"CompanyName": "Ibiar",
 			"CompanyLink": "https://www.ibiar.com/",
 			"CompanyLocation": "Tehran, Iran",
-			"CompanyLogo": "",
+			"CompanyLogo": "/images/ibiar.png",
 			"JobTitle": "Full-Stack Developer",
 			"Duration": "March 2017 — March 2019",
 			"Description": "I was part of the team that launched Biar in February 2017, a company that provides retail goods online in partnership with HooshoDanesh Software Engineering. My contributions to the company included:",

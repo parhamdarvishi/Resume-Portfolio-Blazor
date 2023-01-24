@@ -3,19 +3,28 @@
 @for (var i = 0; i < resume.WorkExperiences.Count; i++)
 {
     <div class="card">
-        <div>
-            @resume.WorkExperiences[i].JobTitle
-        </div>
-        <div>
-            <a href="@resume.WorkExperiences[i].CompanyLink" target="_blank">
-                @resume.WorkExperiences[i].CompanyName
-            </a>
-        </div>
-        <div>
-            @resume.WorkExperiences[i].Duration
-        </div>
-        <div>
-            @resume.WorkExperiences[i].CompanyLocation
+        <div class="d-flex align-items-cenetr">
+            <div>
+                <a href="@resume.WorkExperiences[i].CompanyLink" target="_blank">
+                    <img class="company-logo" src="@resume.WorkExperiences[i].CompanyLogo" />
+                </a>
+            </div>
+            <div class="ml-2">
+                <div class="primary-text-color">
+                    @resume.WorkExperiences[i].JobTitle
+                </div>
+                <div>
+                    <a href="@resume.WorkExperiences[i].CompanyLink" target="_blank">
+                        @resume.WorkExperiences[i].CompanyName
+                    </a>
+                </div>
+                <div>
+                    @resume.WorkExperiences[i].Duration
+                </div>
+                <div>
+                    @resume.WorkExperiences[i].CompanyLocation
+                </div>
+            </div>
         </div>
         <hr />
         <div class="description">
