@@ -50,7 +50,6 @@ a, .btn-link {
     padding: 10px;
     border-radius: 8px;
     margin-right: 10px;
-    line-height:25px;
 }
 
 #blazor-error-ui {
